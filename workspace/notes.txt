@@ -1,0 +1,1 @@
+Project: AI Agents From Scratch. Language: Python. AI Model: Gemini. Available tools: list_files and read_file. Next goal: implement conversation memory.

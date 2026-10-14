@@ -1,0 +1,1 @@
+My name is Alex. I am learning Python and building AI agents. My goal is to become a backend developer.
