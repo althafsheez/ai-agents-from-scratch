@@ -1,4 +1,4 @@
-from agent.runner import run_agent_openai
+from agent.runner_without_max_steps import run_agent_openai
 
 def test_agent():
     result = run_agent_openai(

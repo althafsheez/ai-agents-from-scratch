@@ -1,0 +1,7 @@
+Summary of Workspace Files:
+
+1. hello.txt:
+Introduces Alex, who is learning Python, building AI agents, and aiming to become a backend developer.
+
+2. notes.txt:
+Outlines a project called "AI Agents From Scratch" using Python and Gemini, noting current available tools (list_files and read_file) and the next goal of implementing conversation memory.

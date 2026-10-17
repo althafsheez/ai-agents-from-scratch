@@ -5,6 +5,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from .tools import TOOLS
 import time 
+from .prompts import SYSTEM_PROMPT
 
 
 # Load environment variables
@@ -29,7 +30,7 @@ def save_message(message):
         f.write(json.dumps(message) + "\n")
 
 
-def run_agent_openai(goal: str, max_steps: int = 10) -> str:
+def run_agent_openai(goal: str, max_steps: int = 1000) -> str:
     """Run an AI agent with tool calling."""
 
     # Convert our tool registry into API tool definitions
@@ -47,13 +48,17 @@ def run_agent_openai(goal: str, max_steps: int = 10) -> str:
 
     # Initialize conversation
     messages = [
+        {   "role": "system",
+            "content": SYSTEM_PROMPT
+        },
         {
             "role": "user",
             "content": goal
         }
     ]
 
-    save_message(messages[0])
+    for message in messages:
+        save_message(message)
 
     # Agent loop
     for step in range(max_steps):

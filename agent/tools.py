@@ -10,11 +10,20 @@ def list_files(directory: str) -> str:
         return json.dumps({"error": str(e)})
 
 def read_file(filepath: str) -> str:
-    """Read the contents of a file."""
+    """Read the contents of a file.""" 
     try:
         with open(filepath, 'r') as f:
             content = f.read()
         return json.dumps({"content": content, "filepath": filepath})
+    except Exception as e:
+        return json.dumps({"error": str(e)})
+
+def write_file(filepath:str , content:str) -> str:
+    """Write content to a file."""
+    try:
+        with open(filepath , 'w') as f:
+            f.write(content)
+        return json.dumps({"message": "File written successfully", "filepath": filepath})
     except Exception as e:
         return json.dumps({"error": str(e)})
 
@@ -39,6 +48,19 @@ TOOLS = {
                 "filepath": {"type": "string", "description": "Full path to the file"}
             },
             "required": ["filepath"]
+        }
+    },
+    "write_file": {
+    
+        "function": write_file,
+        "description": "Write content to a file",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "filepath": {"type": "string", "description": "Full path to the file"},
+                "content": {"type": "string", "description": "Content to write to the file"}
+            },
+            "required": ["filepath", "content"]
         }
     }
 }

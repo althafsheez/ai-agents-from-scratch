@@ -5,7 +5,8 @@ def test_agent():
     result = run_agent_openai(
         "List all files in the workspace directory. "
         "Then read hello.txt and notes.txt. "
-        "Tell me what Alex is learning and what the next project goal is."
+        "Then write a new file called summary.txt that contains a summary of the contents of hello.txt and notes.txt."
+        
     )
 
     print("\nAgent Response:")
