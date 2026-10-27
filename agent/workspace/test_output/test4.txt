@@ -1,0 +1,48 @@
+NBA Champions by Year (1990–2026):
+1990: Detroit Pistons
+1991: Chicago Bulls
+1992: Chicago Bulls
+1993: Chicago Bulls
+1994: Houston Rockets
+1995: Houston Rockets
+1996: Chicago Bulls
+1997: Chicago Bulls
+1998: Chicago Bulls
+1999: San Antonio Spurs
+2000: Los Angeles Lakers
+2001: Los Angeles Lakers
+2002: Los Angeles Lakers
+2003: San Antonio Spurs
+2004: Detroit Pistons
+2005: San Antonio Spurs
+2006: Miami Heat
+2007: San Antonio Spurs
+2008: Boston Celtics
+2009: Los Angeles Lakers
+2010: Los Angeles Lakers
+2011: Dallas Mavericks
+2012: Miami Heat
+2013: Miami Heat
+2014: San Antonio Spurs
+2015: Golden State Warriors
+2016: Cleveland Cavaliers
+2017: Golden State Warriors
+2018: Golden State Warriors
+2019: Toronto Raptors
+2020: Los Angeles Lakers
+2021: Milwaukee Bucks
+2022: Golden State Warriors
+2023: Denver Nuggets
+2024: Boston Celtics
+2025: Unverified / Not yet occurred
+2026: Unverified / Not yet occurred
+
+First WNBA Championship:
+Year: 1997
+Winning Team: Houston Comets
+
+Sources Used:
+- nba.txt / NBA.txt (Workspace query file)
+- Official NBA Finals historical records (1990–2024)
+- Official WNBA history records (1997 Houston Comets)
+- Note: The 2025 and 2026 NBA championships cannot be verified as those seasons have not yet occurred / concluded. No data has been invented.

@@ -1,0 +1,5 @@
+Summary of hello.txt:
+My name is Alex. I am learning Python and building AI agents. My goal is to become a backend developer.
+
+Summary of notes.txt:
+Project: AI Agents From Scratch. Language: Python. AI Model: Gemini. Available tools: list_files and read_file. Next goal: implement conversation memory.
